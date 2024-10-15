@@ -1,0 +1,558 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Domain\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{544B4547-BF6B-4081-8C7D-62DF55BE4844}|..\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.infra.data\\entitiesconfiguration\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92E27CE-3618-465D-91E8-CA135258B9C6}|CleanArchMvc.Domain.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D92E27CE-3618-465D-91E8-CA135258B9C6}|CleanArchMvc.Domain.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3281A58A-E5E2-4556-879F-02E4D32B9670}|..\\CleanArchMvc.WebUI\\CleanArchMvc.WebUI.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\products\\handlers\\getproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544B4547-BF6B-4081-8C7D-62DF55BE4844}|..\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.infra.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92E27CE-3618-465D-91E8-CA135258B9C6}|CleanArchMvc.Domain.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D92E27CE-3618-465D-91E8-CA135258B9C6}|CleanArchMvc.Domain.csproj|solutionrelative:interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\mappings\\dtotocommandmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8F9499-C3B4-4871-833C-1E891D5C7E37}|..\\CleanArchMvc.Infra.IoC\\CleanArchMvc.Infra.IoC.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.infra.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\products\\handlers\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\products\\handlers\\productupdatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\products\\handlers\\productremovecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\products\\handlers\\productcreatecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\mappings\\domaintodtomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\products\\queries\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\products\\commands\\productcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\products\\commands\\productremovecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\products\\commands\\productupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6EFBF5F-78BF-4163-9D4E-60CF7911D508}|..\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj|d:\\estudos\\dotnet\\clean architecture\\cleanarchmvc\\cleanarchmvc.application\\products\\commands\\productcreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1666858208:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Infra.Data\\EntitiesConfiguration\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Infra.Data\\EntitiesConfiguration\\ProductConfiguration.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Infra.Data\\EntitiesConfiguration\\ProductConfiguration.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Infra.Data\\EntitiesConfiguration\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:39:55.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\DTOs\\ProductDTO.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:30:21.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Views\\Products\\Create.cshtml",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T20:54:05.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProductRepository.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T22:34:30.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DTOToCommandMappingProfile.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Mappings\\DTOToCommandMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Mappings\\DTOToCommandMappingProfile.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Mappings\\DTOToCommandMappingProfile.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Mappings\\DTOToCommandMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T22:18:26.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:49:24.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetProductsQueryHandler.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Handlers\\GetProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Products\\Handlers\\GetProductsQueryHandler.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Handlers\\GetProductsQueryHandler.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Products\\Handlers\\GetProductsQueryHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAASwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:34:56.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DomainToDTOMappingProfile.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T23:27:00.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA3wDEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:26:10.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductRemoveCommandHandler.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Handlers\\ProductRemoveCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Products\\Handlers\\ProductRemoveCommandHandler.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Handlers\\ProductRemoveCommandHandler.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Products\\Handlers\\ProductRemoveCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwB8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:37:30.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Program.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Program.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T18:53:15.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T21:22:50.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAgwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T18:53:34.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T20:45:29.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T19:41:45.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T20:35:31.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T20:12:07.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T20:05:11.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T19:06:23.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Infra.Data\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Infra.Data\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Infra.Data\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Infra.Data\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwCgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T22:03:36.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T19:01:55.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T19:01:03.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\CleanArchMvc.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T18:57:10.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductUpdateCommandHandler.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Handlers\\ProductUpdateCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Products\\Handlers\\ProductUpdateCommandHandler.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Handlers\\ProductUpdateCommandHandler.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Products\\Handlers\\ProductUpdateCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADgvx8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:36:36.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductCreateCommandHandler.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Handlers\\ProductCreateCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Products\\Handlers\\ProductCreateCommandHandler.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Handlers\\ProductCreateCommandHandler.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Products\\Handlers\\ProductCreateCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:33:56.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T23:30:35.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Infra.IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Infra.IoC\\DependencyInjection.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Infra.IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Infra.IoC\\DependencyInjection.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAASwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T19:40:27.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetProductByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Handlers\\GetProductByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Products\\Handlers\\GetProductByIdQueryHandler.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Handlers\\GetProductByIdQueryHandler.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Products\\Handlers\\GetProductByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T20:20:27.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetProductByIdQuery.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Queries\\GetProductByIdQuery.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Products\\Queries\\GetProductByIdQuery.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Queries\\GetProductByIdQuery.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Products\\Queries\\GetProductByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:28:52.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductRemoveCommand.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Commands\\ProductRemoveCommand.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Products\\Commands\\ProductRemoveCommand.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Commands\\ProductRemoveCommand.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Products\\Commands\\ProductRemoveCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:20:22.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductUpdateCommand.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Commands\\ProductUpdateCommand.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Products\\Commands\\ProductUpdateCommand.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Commands\\ProductUpdateCommand.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Products\\Commands\\ProductUpdateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:19:18.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProductCreateCommand.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Commands\\ProductCreateCommand.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Products\\Commands\\ProductCreateCommand.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Commands\\ProductCreateCommand.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Products\\Commands\\ProductCreateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:18:46.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductCommand.cs",
+              "DocumentMoniker": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Commands\\ProductCommand.cs",
+              "RelativeDocumentMoniker": "..\\CleanArchMvc.Application\\Products\\Commands\\ProductCommand.cs",
+              "ToolTip": "D:\\Estudos\\dotNET\\Clean Architecture\\CleanArchMvc\\CleanArchMvc.Application\\Products\\Commands\\ProductCommand.cs",
+              "RelativeToolTip": "..\\CleanArchMvc.Application\\Products\\Commands\\ProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T20:04:53.425Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
